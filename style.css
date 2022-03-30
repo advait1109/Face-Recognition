@@ -1,0 +1,16 @@
+body{
+    color: white;
+    background-color: pink;
+}
+.heading{
+    width: 80%;
+    font-size: 30px;
+}
+.name_objects{
+    color: red;
+}
+#camera, #result{
+    border: 2px dashed black;
+    width: 354px;
+    height: 303px;
+}
