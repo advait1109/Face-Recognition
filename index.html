@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
 
    <link rel="stylesheet" href="style.css">
@@ -47,12 +47,12 @@
 
       </div>
       <br><br>
-      <button type="button" class="btn btn-info" onclick="take_snapshot()">Take Photo</button>
+      <button type="button" class="btn btn-primary" onclick="take_snapshot()">Take Photo</button>
       <br><br>
       <button type="button" class="btn btn-success" onclick="check()">Recognize the Image</button>
       <br><br>
-      <p style="font-size: 22px;">Object :  </p>
-      <p style="font-size: 22px;">Accuracy :  </p>
+      <p style="font-size: 22px;">Object : <span id="object_name"></span></p>
+      <p style="font-size: 22px;">Accuracy : <span id="object_accuracy"></span></p>
     </center>
 
   </div>

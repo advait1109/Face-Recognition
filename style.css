@@ -1,13 +1,13 @@
 body{
-    color: white;
-    background-color: pink;
+    color: red;
+    background-color: lightblue;
 }
 .heading{
     width: 80%;
     font-size: 30px;
 }
 .name_objects{
-    color: red;
+    color: navy;
 }
 #camera, #result{
     border: 2px dashed black;
